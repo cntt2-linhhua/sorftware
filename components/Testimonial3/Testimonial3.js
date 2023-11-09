@@ -13,21 +13,21 @@ const testimonial = [
     {
         id: '01',
         tImg: ts1,
-        Des: "Ac sollicitudin euismod ut luctus felis duis lacus sed pellentesque. Purus eget consectetur massa amet. Hac diam suspendisse in faucibus posuere dignissim amet at. Eget vitae magna condimentum lorem tristique scelerisque ornare.",
+        Des: "Triết lý cơ bản của studio chúng tôi là tạo ra các giải pháp cá nhân, tuyệt đẹp về mặt thẩm mỹ cho khách hàng bằng cách phát triển nhanh như chớp các dự án sử dụng phong cách và kiến ​​trúc độc đáo. Ngay cả khi bạn không có sẵn bản phác thảo về những gì bạn muốn – chúng tôi sẽ giúp bạn có được kết quả mà bạn mơ ước.",
         Title: 'Leslie Alexander',
         Sub: "Marketing Coordinator",
     },
     {
         id: '01',
         tImg: ts2,
-        Des: "Ac sollicitudin euismod ut luctus felis duis lacus sed pellentesque. Purus eget consectetur massa amet. Hac diam suspendisse in faucibus posuere dignissim amet at. Eget vitae magna condimentum lorem tristique scelerisque ornare.",
+        Des: "Triết lý cơ bản của studio chúng tôi là tạo ra các giải pháp cá nhân, tuyệt đẹp về mặt thẩm mỹ cho khách hàng bằng cách phát triển nhanh như chớp các dự án sử dụng phong cách và kiến ​​trúc độc đáo. Ngay cả khi bạn không có sẵn bản phác thảo về những gì bạn muốn – chúng tôi sẽ giúp bạn có được kết quả mà bạn mơ ước.",
         Title: 'Don Alexander',
         Sub: "SCG First Company",
     },
     {
         id: '01',
         tImg: ts3,
-        Des: "Ac sollicitudin euismod ut luctus felis duis lacus sed pellentesque. Purus eget consectetur massa amet. Hac diam suspendisse in faucibus posuere dignissim amet at. Eget vitae magna condimentum lorem tristique scelerisque ornare.",
+        Des: "Triết lý cơ bản của studio chúng tôi là tạo ra các giải pháp cá nhân, tuyệt đẹp về mặt thẩm mỹ cho khách hàng bằng cách phát triển nhanh như chớp các dự án sử dụng phong cách và kiến ​​trúc độc đáo. Ngay cả khi bạn không có sẵn bản phác thảo về những gì bạn muốn – chúng tôi sẽ giúp bạn có được kết quả mà bạn mơ ước.",
         Title: 'Randy D. Melill',
         Sub: "Merketer",
     }

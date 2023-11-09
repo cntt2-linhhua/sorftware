@@ -33,7 +33,7 @@ const About3 = (props) => {
                                     </div>
                                     <div className="text">
                                         <h5>{ homeDoc.callUs }</h5>
-                                        <span>{ homeDoc.sdt }</span>
+                                        <span style={{ whiteSpace: 'nowrap' }}>{ homeDoc.sdt }</span>
                                     </div>
                                 </Link>
                             </div>
@@ -41,7 +41,7 @@ const About3 = (props) => {
                         </div>
                     </div>
                     <div className="col-lg-6 col-12">
-                        <div className="about-right-item">
+                        <div className="about-right-item" style={{ overflow: 'hidden' }}>
                             <div className="right-image-1">
                                 <Image src={abimg} alt=""/>
                             </div>

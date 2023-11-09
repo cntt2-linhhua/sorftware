@@ -35,8 +35,8 @@ export const homeDoc = {
     Merketer: 'Nhân viên tiếp thị', // Merketer
     SCGFirstCompany: 'SCG First Company', // SCG First Company
     subContact: 'Liên hệ với chúng tôi để biết bất kỳ loại thông tin. Chúng tôi sẵn sàng hỗ trợ bạn bất cứ lúc nào.', // Contact us for any kind of information. We are ready for support you any time.
-    OURBLOG: 'BLOG CỦA CHÚNG TÔI', // OUR BLOG
-    ReadOurLatestNews: 'Đọc các bài chia sẽ mới nhất của chúng tôi', // Read Our Latest News
+    OURBLOG: 'TIN TỨC', // OUR BLOG
+    ReadOurLatestNews: 'Đọc các tin tức mới nhất của chúng tôi', // Read Our Latest News
     SmallHouseForSmartFamily: 'Ngôi Nhà Nhỏ Cho Gia Đình Thông Minh', // Small House For Smart Family
     subSmallHouseForSmartFamily: 'Một loạt các yếu tố vòm để trang trí món ăn orc feugiat aliqet tincidunt. Cổ họng của nhân viên đang tăng lên.', // Varius arcu elementum orci ornare feugiat aliqet tincidunt. Naetur faucibus molestie sollicitudin vestibulum.
     readMore: 'Xem thêm', // Một loạt các yếu tố vòm để trang trí món ăn orc feugiat aliqet tincidunt. Cổ họng của nhân viên đang tăng lên.

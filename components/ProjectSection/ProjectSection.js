@@ -21,7 +21,6 @@ const ProjectSection = () => {
                             <span>{projectDoc.FEATUREDWORKS}</span>
                             <h2>{projectDoc.ArchitectureAboutExperience}</h2>
                             <p>{projectDoc.subArchitectureAboutExperience}</p>
-                            <Link href="/project-single" className="theme-btn">{homeDoc.btnMore}</Link>
                         </div>
                     </div>
                     <div className="col-lg-8">

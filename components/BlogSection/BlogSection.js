@@ -3,6 +3,7 @@ import blogs from '../../api/blogs'
 import SectionTitle from '../SectionTitle/SectionTitle'
 import Link from 'next/link'
 import Image from 'next/image'
+import { homeDoc } from '../../document'
 
 const BlogSection = (props) => {
 
@@ -15,7 +16,7 @@ const BlogSection = (props) => {
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-6 col-12">
-                        <SectionTitle subTitle={'Our Blog'} Title={'Read Our Latest News'} />
+                        <SectionTitle subTitle={homeDoc.OURBLOG} Title={homeDoc.ReadOurLatestNews} />
                     </div>
                 </div>
                 <div className="blog-wrap">

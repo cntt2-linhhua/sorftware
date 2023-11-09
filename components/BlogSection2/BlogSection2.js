@@ -3,6 +3,7 @@ import blogs from '../../api/blogs'
 import SectionTitle from '../SectionTitle/SectionTitle'
 import Link from 'next/link'
 import Image from 'next/image'
+import { homeDoc } from '../../document'
 
 const BlogSection2 = (props) => {
 
@@ -15,7 +16,7 @@ const BlogSection2 = (props) => {
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-6 col-12">
-                        <SectionTitle subTitle={'Our Blog'} Title={'Read Our Latest News'} />
+                        <SectionTitle subTitle={homeDoc.OURBLOG} Title={homeDoc.ReadOurLatestNews} />
                     </div>
                 </div>
                 <div className="blog-wrap">
@@ -36,10 +37,7 @@ const BlogSection2 = (props) => {
                                                     </ul>
                                                 </div>
                                                 <h2><Link onClick={ClickHandler} href={'/blog-single-fullwidth/[slug]'} as={`/blog-single-fullwidth/${blog.slug}`}>{blog.title}</Link></h2>
-                                                <p>Varius arcu elementum orci ornare feugiat aliqet tincidunt. Naetur
-                                                    faucibus
-                                                    molestie sollicitudin vestibulum.</p>
-                                                <Link onClick={ClickHandler} className="theme-btn-s2" href={'/blog-single-fullwidth/[slug]'} as={`/blog-single-fullwidth/${blog.slug}`}>Read More</Link>
+                                                <p>{blog.description}</p>
                                             </div>
                                         </div>
                                     </div>

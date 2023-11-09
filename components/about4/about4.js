@@ -18,16 +18,9 @@ const About4 = (props) => {
                     <div className="col-lg-4 col-md-8 col-12">
                         <div className="about-left-item">
                             <div className="wpo-section-title">
-                                <span>About Us</span>
-                                <h2>Perfect Solution For Your Dream House</h2>
-                                <p>Eget lorem purus egestas proin. Penatibus quis lacinia nulla at proin.
-                                    Dignissim a placerat massa quam hendrerit in laoreet urna.
-                                    Sed in volutpat sit porttitor vestibulum quis semper tristique ac.
-                                    Ut sed eget a odio varius nisl
-                                    sed nec.
-                                    At elementum nascetur turpis elementum egestas non turpis.</p>
+                                <span>Giới thiệu về chúng tôi</span>
+                                <h2>Chúng tôi gọi phong cách của mình là "sống tối giản". Sống tối giản không phải là về ngoại hình hay hình ảnh. Nó đề cập đến cảm xúc bên trong, con người thật của bạn.</h2>
                             </div>
-                            <Link onClick={ClickHandler} href="/about" className="theme-btn-s2">Read More About Us...</Link>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-8 col-12">
@@ -37,13 +30,10 @@ const About4 = (props) => {
                     </div>
                     <div className="col-lg-4 col-md-8 col-12">
                         <div className="about-right-item">
-                            <p><span>M</span>ignissim adipiscing pretium libero at tristique.
-                                Diam sit mauris a interdum. In tristique eu vestibulum id amet malesuada.
-                                Quis morbi morbi sed volutpat tristique. Lacinia praesent dictum morbi et fermentum.
-                                Sit a sit ac blandit. Cursus donec mollis elit arcu donec aliquam.
-                            </p>
-                            <h2>Robert Markel</h2>
-                            <h3>- CEO of the company</h3>
+                            <p><span>T</span>riết lý cơ bản của studio chúng tôi là tạo ra các giải pháp cá nhân, tuyệt đẹp về mặt thẩm mỹ cho khách hàng của chúng tôi bằng cách phát triển nhanh như chớp các dự án sử dụng phong cách độc đáo.</p>
+                            <p><span>C</span>húng tôi gọi phong cách của mình là "sống tối giản". Sống tối giản không phải là về ngoại hình hay hình ảnh. Nó đề cập đến cảm xúc bên trong, con người thật của bạn.</p>
+                            <h2>Mr. A</h2>
+                            <h3>- Giám đốc Công ty</h3>
                             <div className="signeture-img">
                                 <Image src={sign} alt="" />
                             </div>
