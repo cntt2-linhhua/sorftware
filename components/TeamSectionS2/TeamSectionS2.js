@@ -62,7 +62,7 @@ const TeamSectionS2 = (props) => {
 
     return (
 
-        <section className="Arkitek-team-section section-padding">
+        <section className="Arkitek-team-section section-padding" style={{ left: 0, transform: 'none' }}>
             <div className="container-fulid">
                 <div className="row">
                     <div className="col-lg-6">

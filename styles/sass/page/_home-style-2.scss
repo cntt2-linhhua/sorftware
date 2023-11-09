@@ -242,7 +242,7 @@
 
     .right-text {
         position: absolute;
-        right: -105px;
+        right: 0px;
         top: 0;
 
         @media (max-width:1499px) {
@@ -393,7 +393,7 @@
             }
 
             @media (max-width:1399px) {
-                margin-right: -68px;
+                margin-right: 0px;
             }
 
             @media (max-width:1199px) {
@@ -401,7 +401,7 @@
             }
 
             @media (max-width:991px) {
-                right: -40px;
+                right: 35px;
             }
 
             @media (max-width:575px) {
@@ -572,7 +572,6 @@
 
 /*5.4 Arkitek-project-section-s2 */
 .Arkitek-project-section-s2 {
-
     .wpo-section-title {
         text-align: center;
 
@@ -632,6 +631,28 @@
     position: relative;
     left: 65%;
     transform: translateX(-50%);
+
+    .row {
+        justify-content: center;
+        .wpo-section-title {
+            text-align: center;
+    
+            h2 {
+                &::before {
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 50%;
+    
+                }
+    
+                &::after {
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 40%;
+                }
+            }
+        }
+    }
 
     @media (max-width:1749px) {
         left: 62%;
