@@ -23,7 +23,7 @@ const Footer = (props) => {
                         <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
                             <div className="widget about-widget">
                                 <div className="logo widget-title">
-                                    <Image src={Logo} alt="blog" />
+                                    <Image src={Logo || ''} alt="blog" />
                                 </div>
                                 <p style={{ whiteSpace: 'pre-wrap'}}>{footerDoc.footerText}</p>
                                 <ul>

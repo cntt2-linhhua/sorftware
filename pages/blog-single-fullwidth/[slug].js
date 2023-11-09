@@ -38,7 +38,7 @@ const BlogSingle = (props) => {
                             <div className="wpo-blog-content">
                                 <div className="post format-standard-image">
                                     <div className="entry-media">
-                                        <Image src={BlogDetails?.blogSingleImg} alt="" />
+                                        <Image src={BlogDetails?.blogSingleImg || ''} alt="" />
                                     </div>
                                     <div className="entry-meta">
                                         <ul>
@@ -54,10 +54,10 @@ const BlogSingle = (props) => {
                                     </blockquote>
                                     <div className="gallery">
                                         <div>
-                                            <Image src={gl1} alt="" />
+                                            <Image src={gl1 || ''} alt="" />
                                         </div>
                                         <div>
-                                            <Image src={gl2} alt="" />
+                                            <Image src={gl2 || ''} alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -86,7 +86,7 @@ const BlogSingle = (props) => {
 
                                 <div className="author-box">
                                     <div className="author-avatar">
-                                        <Link href="/" target="_blank"><Image src={blog6} alt="" /></Link>
+                                        <Link href="/" target="_blank"><Image src={blog6 || ''} alt="" /></Link>
                                     </div>
                                     <div className="author-content">
                                         <Link href="/" className="author-name">Tác giả: Jenny Watson</Link>
