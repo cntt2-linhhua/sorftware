@@ -37,7 +37,6 @@ const Contact = () => {
                     <div className="form-field">
                         <input
                             className="form-control"
-                            value={forms.name}
                             type="text"
                             name="name"
                             onBlur={(e) => changeHandler(e)}
@@ -49,7 +48,6 @@ const Contact = () => {
                     <div className="form-field">
                         <input
                             className="form-control"
-                            value={forms.email}
                             type="email"
                             name="email"
                             onBlur={(e) => changeHandler(e)}
@@ -62,7 +60,6 @@ const Contact = () => {
                         <select className="form-control"
                             onBlur={(e) => changeHandler(e)}
                             onChange={(e) => changeHandler(e)}
-                            value={forms.subject}
                             type="text"
                             name="subject">
                             <option disabled="disabled">{ projectDoc.project }</option>
@@ -77,7 +74,6 @@ const Contact = () => {
                         className="form-control"
                         onBlur={(e) => changeHandler(e)}
                         onChange={(e) => changeHandler(e)}
-                        value={forms.message}
                         type="text"
                         name="message"
                         placeholder={projectDoc.Messege}>

@@ -4,40 +4,15 @@ import { contactDoc } from '../../document';
 
 
 const ContactForm = () => {
-
-    const [forms, setForms] = useState({
-        name: '',
-        email: '',
-        subject: '',
-        phone: '',
-        message: ''
-    });
     const [validator] = useState(new SimpleReactValidator({
         className: 'errorMessage'
     }));
     const changeHandler = e => {
-        setForms({ ...forms, [e.target.name]: e.target.value })
-        if (validator.allValid()) {
-            validator.hideMessages();
-        } else {
-            validator.showMessages();
-        }
+        e.preventDefault()
     };
 
     const submitHandler = e => {
         e.preventDefault();
-        if (validator.allValid()) {
-            validator.hideMessages();
-            setForms({
-                name: '',
-                email: '',
-                subject: '',
-                phone: '',
-                message: ''
-            })
-        } else {
-            validator.showMessages();
-        }
     };
 
     return (
@@ -46,37 +21,31 @@ const ContactForm = () => {
                 <div className="col col-lg-6 col-12">
                     <div className="form-field">
                         <input
-                            value={forms.name}
                             type="text"
                             name="name"
                             onBlur={(e) => changeHandler(e)}
                             onChange={(e) => changeHandler(e)}
                             placeholder={contactDoc.yourName} />
-                        {validator.message('name', forms.name, 'required|alpha_space')}
                     </div>
                 </div>
                 <div className="col col-lg-6 col-12">
                     <div className="form-field">
                         <input
-                            value={forms.email}
                             type="email"
                             name="email"
                             onBlur={(e) => changeHandler(e)}
                             onChange={(e) => changeHandler(e)}
                             placeholder={contactDoc.yourEmail} />
-                        {validator.message('email', forms.email, 'required|email')}
                     </div>
                 </div>
                 <div className="col col-lg-6 col-12">
                     <div className="form-field">
                         <input
-                            value={forms.phone}
                             type="phone"
                             name="phone"
                             onBlur={(e) => changeHandler(e)}
                             onChange={(e) => changeHandler(e)}
                             placeholder={contactDoc.phone} />
-                        {validator.message('phone', forms.phone, 'required|phone')}
                     </div>
                 </div>
                 <div className="col col-lg-6 col-12">
@@ -84,7 +53,6 @@ const ContactForm = () => {
                         <select
                             onBlur={(e) => changeHandler(e)}
                             onChange={(e) => changeHandler(e)}
-                            value={forms.subject}
                             type="text"
                             name="subject">
                             <option>{contactDoc.Architecture}</option>
@@ -94,19 +62,16 @@ const ContactForm = () => {
                             <option>{contactDoc.PerfectCake}</option>
                             <option>{contactDoc.AllOfTheAbove}</option>
                         </select>
-                        {validator.message('subject', forms.subject, 'required')}
                     </div>
                 </div>
                 <div className="col col-lg-12 col-12">
                     <textarea
                         onBlur={(e) => changeHandler(e)}
                         onChange={(e) => changeHandler(e)}
-                        value={forms.message}
                         type="text"
                         name="message"
                         placeholder={ contactDoc.message }>
                     </textarea>
-                    {validator.message('message', forms.message, 'required')}
                 </div>
             </div>
             <div className="submit-area">
