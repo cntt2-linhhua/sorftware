@@ -3,6 +3,8 @@ import List from "@mui/material/List";
 import ListItem from "@mui/material/List";
 import Collapse from "@mui/material/Collapse";
 import Link from "next/link";
+import { useRouter } from 'next/router';
+import { useEffect } from 'react';
 
 const menus = [
     {
@@ -47,26 +49,50 @@ const menus = [
 ]
 
 const MobileMenu = () => {
-
     const [openId, setOpenId] = useState(0);
+    const { pathname } = useRouter()
     const [menuActive, setMenuState] = useState(false);
 
     const ClickHandler = () => {
         window.scrollTo(10, 0);
     }
 
+    const colorItem = (href) => {
+        if (href === pathname) return '#d48256'
+
+        return '#fff'
+    }
+
+    useEffect(() => {
+        document.getElementsByTagName('body')[0].style.overflowY = menuActive ? 'hidden' : 'auto'
+    }, [menuActive])
+
     return (
         <div>
-            <div className={`mobileMenu ${menuActive ? "show" : ""}`}>
-                <div className="menu-close">
-                    <div className="clox" onClick={() => setMenuState(!menuActive)}><i className="ti-close"></i></div>
-                </div>
+            <div
+                style={menuActive ? {
+                    position: 'fixed',
+                    zIndex: 9999,
+                    width: '100vw',
+                    height: '100vh',
+                    top: 0,
+                    left: 0,
+                } : {}}
+                onClick={(e) => {
+                    e.stopPropagation()
+                    e.preventDefault()
+                }}
+            >
+                <div style={{ overflow: 'hidden' }} className={`mobileMenu ${menuActive ? "show" : ""}`}>
+                    <div className="menu-close">
+                        <div className="clox" onClick={() => setMenuState(!menuActive)}><i className="ti-close"></i></div>
+                    </div>
 
-                <ul className="responsivemenu">
-                    {menus.map((item, mn) => {
-                        return (
-                            <ListItem className={item.id === openId ? 'active' : null} key={mn}>
-                                {item.submenu ?
+                    <ul className="responsivemenu">
+                        {menus.map((item, mn) => {
+                            return (
+                                <ListItem className={item.id === openId ? 'active' : null} key={mn}>
+                                    {/* {item.submenu ?
                                     <Fragment>
                                         <p onClick={() => setOpenId(item.id === openId ? 0 : item.id)}>{item.title}
                                             <i className={item.id === openId ? 'fa fa-angle-up' : 'fa fa-angle-down'}></i>
@@ -88,12 +114,14 @@ const MobileMenu = () => {
                                     </Fragment>
                                     : <Link className="active"
                                         href={item.link}>{item.title}</Link>
-                                }
-                            </ListItem>
-                        )
-                    })}
-                </ul>
+                                } */}
+                                    <Link className="active" onClick={ClickHandler} style={{ color: colorItem(item.link) }} href={item.link}>{item.title}</Link>
+                                </ListItem>
+                            )
+                        })}
+                    </ul>
 
+                </div>
             </div>
 
             <div className="showmenu" onClick={() => setMenuState(!menuActive)}>
