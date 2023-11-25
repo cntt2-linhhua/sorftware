@@ -26,7 +26,7 @@ const RelatedProject = () => {
                                     <div className="col-lg-4 col-md-6 col-12" key={pot}>
                                         <div className="project-single">
                                             <div className="project-single-img">
-                                                <Image src={project.pImg} alt="" />
+                                                <Image src={project.pImg} alt="" style={{ height: '200px' }} />
                                             </div>
                                             <div className="project-single-text">
                                                 <Link onClick={ClickHandler} href={'/project/[slug]'} as={`/project/${project.slug}`}>{project.pTitle}</Link>

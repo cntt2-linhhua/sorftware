@@ -20,7 +20,7 @@ const ShopProduct = ({ products }) => {
                                             <img src={product.proImg} alt="" />
                                         </div>
                                         <div className="details">
-                                            <h3><Link onClick={ClickHandler} href={'/product/[slug]'} as={`/product/${product.slug}`}>{product.title}</Link></h3>
+                                            <h3><Link onClick={ClickHandler} href={'/shop/product/[slug]'} as={`/shop/product/${product.slug}`}>{product.title}</Link></h3>
                                             <del>${product.delPrice}</del>
                                             <span>${product.price}</span>
                                         </div>

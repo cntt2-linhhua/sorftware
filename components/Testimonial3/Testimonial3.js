@@ -14,22 +14,22 @@ const testimonial = [
         id: '01',
         tImg: ts1,
         Des: "Triết lý cơ bản của studio chúng tôi là tạo ra các giải pháp cá nhân, tuyệt đẹp về mặt thẩm mỹ cho khách hàng bằng cách phát triển nhanh như chớp các dự án sử dụng phong cách và kiến ​​trúc độc đáo. Ngay cả khi bạn không có sẵn bản phác thảo về những gì bạn muốn – chúng tôi sẽ giúp bạn có được kết quả mà bạn mơ ước.",
-        Title: 'Leslie Alexander',
-        Sub: "Marketing Coordinator",
+        Title: 'Hoang Uyen Linh',
+        Sub: "Nhân viên Marketing",
     },
     {
         id: '01',
         tImg: ts2,
         Des: "Triết lý cơ bản của studio chúng tôi là tạo ra các giải pháp cá nhân, tuyệt đẹp về mặt thẩm mỹ cho khách hàng bằng cách phát triển nhanh như chớp các dự án sử dụng phong cách và kiến ​​trúc độc đáo. Ngay cả khi bạn không có sẵn bản phác thảo về những gì bạn muốn – chúng tôi sẽ giúp bạn có được kết quả mà bạn mơ ước.",
-        Title: 'Don Alexander',
-        Sub: "SCG First Company",
+        Title: 'Hoang Uyen Long',
+        Sub: "Giám đốc studio",
     },
     {
         id: '01',
         tImg: ts3,
         Des: "Triết lý cơ bản của studio chúng tôi là tạo ra các giải pháp cá nhân, tuyệt đẹp về mặt thẩm mỹ cho khách hàng bằng cách phát triển nhanh như chớp các dự án sử dụng phong cách và kiến ​​trúc độc đáo. Ngay cả khi bạn không có sẵn bản phác thảo về những gì bạn muốn – chúng tôi sẽ giúp bạn có được kết quả mà bạn mơ ước.",
-        Title: 'Randy D. Melill',
-        Sub: "Merketer",
+        Title: 'Hoang Uyen Chi',
+        Sub: "Nhân viên chăm sóc khách hàng",
     }
 ]
 

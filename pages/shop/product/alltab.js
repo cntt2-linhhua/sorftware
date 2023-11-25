@@ -4,7 +4,7 @@ import classnames from 'classnames';
 import Image from 'next/image'
 import rimg1 from '/public/images/shop/shop-single/review/img-1.jpg' 
 import rimg2 from '/public/images/shop/shop-single/review/img-2.jpg' 
-import { productDoc } from '../../document';
+import { productDoc } from '../../../document';
 
 
 const ProductTabs = (props) => {

@@ -49,7 +49,6 @@ const menus = [
 ]
 
 const MobileMenu = () => {
-    const [openId, setOpenId] = useState(0);
     const { pathname } = useRouter()
     const [menuActive, setMenuState] = useState(false);
 
@@ -58,8 +57,7 @@ const MobileMenu = () => {
     }
 
     const colorItem = (href) => {
-        if (href === pathname) return '#d48256'
-
+        if (pathname === href || (href !== '/' && pathname.includes(href))) return '#d48256'
         return '#fff'
     }
 
@@ -91,7 +89,7 @@ const MobileMenu = () => {
                     <ul className="responsivemenu">
                         {menus.map((item, mn) => {
                             return (
-                                <ListItem className={item.id === openId ? 'active' : null} key={mn}>
+                                <ListItem key={mn}>
                                     {/* {item.submenu ?
                                     <Fragment>
                                         <p onClick={() => setOpenId(item.id === openId ? 0 : item.id)}>{item.title}

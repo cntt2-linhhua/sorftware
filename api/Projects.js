@@ -22,8 +22,8 @@ import sSingleimg2 from '/public/images/project-single/3.jpg'
 const Projects = [
     {
         Id: '1',
-        pTitle: 'Architecture', 
-        slug: 'Architecture',
+        pTitle: 'Ngành kiến ​​​​trúc', 
+        slug: 'nganh-kien-truc',
         pImg:pImg1,
         pSImg:pSImg1,
         ssImg1:sSingleimg1,
@@ -31,8 +31,8 @@ const Projects = [
     },
     {
         Id: '2',
-        pTitle: 'Exterior Design', 
-        slug: 'Exterior-Design',
+        pTitle: 'Thiết kế không gian', 
+        slug: 'thiet-ke-khong-gian',
         pImg:pImg2,
         pSImg:pSImg2,
         ssImg1:sSingleimg1,
@@ -40,8 +40,8 @@ const Projects = [
     },
     {
         Id: '3',
-        pTitle: 'Interior', 
-        slug: 'Interior',
+        pTitle: 'Thiết kế nội thất', 
+        slug: 'thiet-ke-noi-that',
         pImg:pImg3,
         pSImg:pSImg3,
         ssImg1:sSingleimg1,
@@ -49,8 +49,8 @@ const Projects = [
     },
     {
         Id: '4',
-        pTitle: 'Furniture & Decor', 
-        slug: 'Furniture-&-Decor',
+        pTitle: 'Trang trí nội thất', 
+        slug: 'trang-tri-noi-that',
         pImg:pImg4,
         pSImg:pSImg4,
         ssImg1:sSingleimg1,
@@ -58,8 +58,8 @@ const Projects = [
     },
     {
         Id: '5',
-        pTitle: 'Modern Architecture in London', 
-        slug: 'Modern-Architecture-in-London',
+        pTitle: 'Kiến trúc hiện đại', 
+        slug: 'kien-truc-hien-dai',
         pImg:pImg5,
         pSImg:pSImg5,
         ssImg1:sSingleimg1,
@@ -67,8 +67,8 @@ const Projects = [
     },
     {
         Id: '6',
-        pTitle: 'Interior Design in San Francisco', 
-        slug: 'Interior-Design-in-San-Francisco',
+        pTitle: 'Thiết kế nội thất', 
+        slug: 'thiet-ke-noi-that',
         pImg:pImg6,
         pSImg:pSImg6,
         ssImg1:sSingleimg1,
@@ -76,8 +76,8 @@ const Projects = [
     },
     {
         Id: '7',
-        pTitle: 'Exclusive Home Decor in California', 
-        slug: 'Exclusive-Home-Decor-in-California',
+        pTitle: 'Trang trí nhà độc quyền', 
+        slug: 'trang-tri-theo-yeu-cau',
         pImg:pImg7,
         pSImg:pSImg7,
         ssImg1:sSingleimg1,
@@ -85,8 +85,8 @@ const Projects = [
     },
     {
         Id: '8',
-        pTitle: 'Interior Design in San Francisco', 
-        slug: 'Interior-Design-in-San-Francisco',
+        pTitle: 'Thiết kế nội thất', 
+        slug: 'trang-tri-noi-that',
         pImg:pImg6,
         pSImg:pSImg6,
         ssImg1:sSingleimg1,

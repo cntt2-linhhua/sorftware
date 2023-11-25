@@ -1,44 +1,32 @@
 
 
-import React, { useState } from 'react'
-import SimpleReactValidator from 'simple-react-validator';
+import React from 'react'
+// import SimpleReactValidator from 'simple-react-validator';
 import { projectDoc } from '../../document';
 
 
 const Contact = () => {
 
-
-    const [forms, setForms] = useState({
-        name: '',
-        email: '',
-        subject: '',
-        message: ''
-    });
-    const [validator] = useState(new SimpleReactValidator({
-        className: 'errorMessage'
-    }));
+    // const [validator] = useState(new SimpleReactValidator({
+    //     className: 'errorMessage'
+    // }));
     const changeHandler = e => {
-        setForms({ ...forms, [e.target.name]: e.target.value })
-        if (validator.allValid()) {
-            validator.hideMessages();
-        } else {
-            validator.showMessages();
-        }
+        e.preventDefault()
     };
 
     const submitHandler = e => {
         e.preventDefault();
-        if (validator.allValid()) {
-            validator.hideMessages();
-            setForms({
-                name: '',
-                email: '',
-                subject: '',
-                message: ''
-            })
-        } else {
-            validator.showMessages();
-        }
+        // if (validator.allValid()) {
+        //     validator.hideMessages();
+        //     setForms({
+        //         name: '',
+        //         email: '',
+        //         subject: '',
+        //         message: ''
+        //     })
+        // } else {
+        //     validator.showMessages();
+        // }
     };
 
 
@@ -56,7 +44,6 @@ const Contact = () => {
                             onChange={(e) => changeHandler(e)}
                             placeholder={projectDoc.YourName} />
                     </div>
-                    {validator.message('name', forms.name, 'required|alpha_space')}
                 </div>
                 <div className="col col-lg-6 col-md-6 col-12">
                     <div className="form-field">
@@ -68,7 +55,6 @@ const Contact = () => {
                             onBlur={(e) => changeHandler(e)}
                             onChange={(e) => changeHandler(e)}
                             placeholder={projectDoc.YourEmail} />
-                        {validator.message('email', forms.email, 'required|email')}
                     </div>
                 </div>
                 <div className="col col-lg-12 col-12">
@@ -84,7 +70,6 @@ const Contact = () => {
                             <option>{ projectDoc.CompleteInterior }</option>
                             <option>{ projectDoc.ExteriorDesign }</option>
                         </select>
-                        {validator.message('subject', forms.subject, 'required|alpha_space')}
                     </div>
                 </div>
                 <div className="col fullwidth col-lg-12">
@@ -97,7 +82,6 @@ const Contact = () => {
                         name="message"
                         placeholder={projectDoc.Messege}>
                     </textarea>
-                    {validator.message('message', forms.message, 'required')}
                 </div>
             </div>
             <div className="submit-area">

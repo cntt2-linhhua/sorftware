@@ -16,8 +16,7 @@ const Header = (props) => {
     }
 
     const colorItem = (href) => {
-        if (href === pathname) return '#d48256'
-
+        if (pathname === href || (href !== '/' && pathname.includes(href))) return '#d48256'
         return '#000'
     }
 

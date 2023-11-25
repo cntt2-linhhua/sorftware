@@ -89,8 +89,8 @@ const BlogSingle = (props) => {
                                         <Link href="/" target="_blank"><Image src={blog6 || ''} alt="" /></Link>
                                     </div>
                                     <div className="author-content">
-                                        <Link href="/" className="author-name">Tác giả: Jenny Watson</Link>
-                                        <p>Ngay cả khi bạn chưa có bản phác thảo sẵn sàng về những gì bạn muốn – chúng tôi sẽ giúp bạn có được kết quả mà bạn mơ ước.</p>
+                                    <h4>Hoang Linh Nghi</h4>
+                    <p>CHÀO! Chúc bạn một ngày tốt lành. Tôi là tác giả của blog này. Cảm ơn bạn đã dành thời gian đọc bài viết của tôi.</p>
                                         <div className="socials">
                                             <ul className="social-link">
                                                 <li><Link href="/"><i className="ti-facebook"></i></Link></li>
