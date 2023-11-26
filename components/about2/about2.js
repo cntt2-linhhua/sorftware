@@ -36,7 +36,7 @@ const About2 = (props) => {
                                     </div>
                                     <div className="text">
                                         <h5>{homeDoc.callUs}:</h5>
-                                        <span>+(684) 555-0102</span>
+                                        <span>{homeDoc.sdt}</span>
                                     </div>
                                 </Link>
                             </div>

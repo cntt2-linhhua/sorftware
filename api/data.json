@@ -4,59 +4,59 @@
     "proImg": "/images/product/1.jpg",
     "title": "Ghế Bev Accent",
     "slug": "ghe-Bev-Accent",
-    "price": "340.00",
-    "delPrice": "380.00",
-    "brand":"Local",
-    "size":"Xl"
+    "price": "24",
+    "delPrice": "25",
+    "brand": "Local",
+    "size": "Xl"
   },
   {
     "id": 2,
     "proImg": "/images/product/2.jpg",
     "title": "Ghế Gỗ Đen",
     "slug": "ghe-go-den",
-    "price": "65.00",
-    "delPrice": "85.00",
-    "brand":"Local",
-    "size":"XXl"
+    "price": "29",
+    "delPrice": "30",
+    "brand": "Local",
+    "size": "XXl"
   },
   {
     "id": 3,
     "proImg": "/images/product/3.jpg",
     "title": "Bàn đá cẩm thạch",
     "slug": "ban-da-cam-thach",
-    "price": "285.00",
-    "delPrice": "300.00",
-    "brand":"Local",
-    "size":"L"
+    "price": "22",
+    "delPrice": "23",
+    "brand": "Local",
+    "size": "L"
   },
   {
     "id": 4,
     "proImg": "/images/product/4.jpg",
     "title": "Bình đa giác",
     "slug": "binh-da-giac",
-    "price": "176.00",
-    "delPrice": "178.00",
-    "brand":"Local",
-    "size":"M"
+    "price": "20",
+    "delPrice": "21",
+    "brand": "Local",
+    "size": "M"
   },
   {
     "id": 5,
     "proImg": "/images/product/5.jpg",
     "title": "Ghế máy tính thép",
     "slug": "ghe-may-tinh-thep",
-    "price": "125.00",
-    "delPrice": "130.00",
-    "brand":"Local",
-    "size":"XXl"
+    "price": "18",
+    "delPrice": "19",
+    "brand": "Local",
+    "size": "XXl"
   },
   {
     "id": 6,
     "proImg": "/images/product/6.jpg",
     "title": "Ghế Gỗ Annabel",
     "slug": "ghe-go-Annabel",
-    "price": "548.00",
-    "delPrice": "600.00",
-    "brand":"Local",
-    "size":"Xl"
+    "price": "23",
+    "delPrice": "24",
+    "brand": "Local",
+    "size": "Xl"
   }
 ]

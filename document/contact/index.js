@@ -1,12 +1,12 @@
 export const contactDoc = {
     ContactUs: 'Liên hệ với chúng tôi', // Contact Us
     Address: 'Địa chỉ', // Address
-    subAddress: '7 Green Lake Street Crawfordsville, IN 47933',
+    subAddress: 'vinhomesmartcity',
     EmailUs: 'Email chúng tôi', // Email Us
-    subEmailUs: 'example@gmail.com',
+    subEmailUs: ' minhduongdecor@gmail.com',
     CallNow: 'Gọi ngay', // Call Now
-    subCallNow1: '+1 800 123 456 789',
-    subCallNow2: '+1 800 123 654 987',
+    subCallNow1: '0911 453 355',
+    subCallNow2: '0823 423 355',
     HaveAnyQuestion: 'Có bất kỳ câu hỏi nào?',
     subHaveAnyQuestion: 'It is a long established fact that a reader will be distracted content of a page when looking.',
     yourName: 'Tên của bạn', // Your Name

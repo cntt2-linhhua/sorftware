@@ -32,7 +32,7 @@ const About4 = (props) => {
                         <div className="about-right-item">
                             <p><span>T</span>riết lý cơ bản của studio chúng tôi là tạo ra các giải pháp cá nhân, tuyệt đẹp về mặt thẩm mỹ cho khách hàng của chúng tôi bằng cách phát triển nhanh như chớp các dự án sử dụng phong cách độc đáo.</p>
                             <p><span>C</span>húng tôi gọi phong cách của mình là "sống tối giản". Sống tối giản không phải là về ngoại hình hay hình ảnh. Nó đề cập đến cảm xúc bên trong, con người thật của bạn.</p>
-                            <h2>Mr. A</h2>
+                            <h2>Mr. Đạt</h2>
                             <h3>- Giám đốc Công ty</h3>
                             <div className="signeture-img">
                                 <Image src={sign} alt="" />

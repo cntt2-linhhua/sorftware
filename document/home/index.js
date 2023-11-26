@@ -7,7 +7,7 @@ export const homeDoc = {
     solugan: 'Biến không gian mơ ước của bạn thành hiện thực', // Transforming Space Into Your Dreams Come True
     subSolugan: 'Có rất nhiều ý tưởng thiết kế nội thất được các kiến trúc sư cho ra đời mỗi năm. Bạn có thể thoả sức lựa chọn những phong các thiết kế nội thất phù hợp. Đặc biệt các bản thiết kế còn được chăm phút cho phù hợp với từng sở thích của bạn. Các ý tưởng thiết kế được đầu tư không chỉ có các yếu tố sáng tạo. Chúng còn đòi hỏi sự độc đáo, mới lạ và tiện nghi trong sinh hoạt...', // Eget lorem purus egestas proin. Penatibus quis lacinia nulla at proin. Dignissim a placerat massa quam hendrerit in laoreet urna. Sed in volutpat sit porttitor vestibulum quis semper tristique.
     callUs: 'Gọi cho chúng tôi: ', // Call Us
-    sdt: '+(684) 555-0102', // +(684) 555-0102
+    sdt: '0911 453 355', // 0911453355
     yearOfExperience: 'Năm kinh nghiệm \n Trong lĩnh vực này', // Years of Experience In This Field
     curentclient: 'KHÁCH HÀNG HIỆN TẠI', // CURRENT CLIENTS
     awardsWinning: 'GIẢI THƯỞNG', // AWARDS WINNING
@@ -44,5 +44,5 @@ export const homeDoc = {
     subTheGoldenRatio2DSketch: 'Bản phác thảo 2D với đầy đủ các yếu tố cần thiết, phù hợp với yêu cầu', // Varius arcu elementum orci ornare feugiat aliqet tincidunt. Naetur faucibus molestie sollicitudin vestibulum.
     BestColorsNaturalMaterials: 'Màu sắc & Chất liệu tự nhiên đẹp nhất', // Màu sắc & Chất liệu tự nhiên đẹp nhất
     subBestColorsNaturalMaterials: 'Màu sắc & chất liệu tự nhiên sự kết hợp hoàn hảo đến từng chi tiết.', // Varius arcu elementum orci ornare feugiat aliqet tincidunt. Naetur faucibus molestie sollicitudin vestibulum.
-    phoneNumber: '(208) 555-0112',
+    phoneNumber: '0911 453 355',
 }
