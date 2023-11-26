@@ -7,7 +7,7 @@ export const homeDoc = {
     solugan: 'Biến không gian mơ ước của bạn thành hiện thực', // Transforming Space Into Your Dreams Come True
     subSolugan: 'Có rất nhiều ý tưởng thiết kế nội thất được các kiến trúc sư cho ra đời mỗi năm. Bạn có thể thoả sức lựa chọn những phong các thiết kế nội thất phù hợp. Đặc biệt các bản thiết kế còn được chăm phút cho phù hợp với từng sở thích của bạn. Các ý tưởng thiết kế được đầu tư không chỉ có các yếu tố sáng tạo. Chúng còn đòi hỏi sự độc đáo, mới lạ và tiện nghi trong sinh hoạt...', // Eget lorem purus egestas proin. Penatibus quis lacinia nulla at proin. Dignissim a placerat massa quam hendrerit in laoreet urna. Sed in volutpat sit porttitor vestibulum quis semper tristique.
     callUs: 'Gọi cho chúng tôi: ', // Call Us
-    sdt: '+(684) 555-0102', // +(684) 555-0102
+    sdt: '0911 453 355', // 0911453355
     yearOfExperience: 'Năm kinh nghiệm \n Trong lĩnh vực này', // Years of Experience In This Field
     curentclient: 'KHÁCH HÀNG HIỆN TẠI', // CURRENT CLIENTS
     awardsWinning: 'GIẢI THƯỞNG', // AWARDS WINNING
@@ -35,8 +35,8 @@ export const homeDoc = {
     Merketer: 'Nhân viên tiếp thị', // Merketer
     SCGFirstCompany: 'SCG First Company', // SCG First Company
     subContact: 'Liên hệ với chúng tôi để biết bất kỳ loại thông tin. Chúng tôi sẵn sàng hỗ trợ bạn bất cứ lúc nào.', // Contact us for any kind of information. We are ready for support you any time.
-    OURBLOG: 'BLOG CỦA CHÚNG TÔI', // OUR BLOG
-    ReadOurLatestNews: 'Đọc các bài chia sẽ mới nhất của chúng tôi', // Read Our Latest News
+    OURBLOG: 'TIN TỨC', // OUR BLOG
+    ReadOurLatestNews: 'Đọc các tin tức mới nhất của chúng tôi', // Read Our Latest News
     SmallHouseForSmartFamily: 'Ngôi Nhà Nhỏ Cho Gia Đình Thông Minh', // Small House For Smart Family
     subSmallHouseForSmartFamily: 'Một loạt các yếu tố vòm để trang trí món ăn orc feugiat aliqet tincidunt. Cổ họng của nhân viên đang tăng lên.', // Varius arcu elementum orci ornare feugiat aliqet tincidunt. Naetur faucibus molestie sollicitudin vestibulum.
     readMore: 'Xem thêm', // Một loạt các yếu tố vòm để trang trí món ăn orc feugiat aliqet tincidunt. Cổ họng của nhân viên đang tăng lên.
@@ -44,5 +44,5 @@ export const homeDoc = {
     subTheGoldenRatio2DSketch: 'Bản phác thảo 2D với đầy đủ các yếu tố cần thiết, phù hợp với yêu cầu', // Varius arcu elementum orci ornare feugiat aliqet tincidunt. Naetur faucibus molestie sollicitudin vestibulum.
     BestColorsNaturalMaterials: 'Màu sắc & Chất liệu tự nhiên đẹp nhất', // Màu sắc & Chất liệu tự nhiên đẹp nhất
     subBestColorsNaturalMaterials: 'Màu sắc & chất liệu tự nhiên sự kết hợp hoàn hảo đến từng chi tiết.', // Varius arcu elementum orci ornare feugiat aliqet tincidunt. Naetur faucibus molestie sollicitudin vestibulum.
-    phoneNumber: '(208) 555-0112',
+    phoneNumber: '0911 453 355',
 }

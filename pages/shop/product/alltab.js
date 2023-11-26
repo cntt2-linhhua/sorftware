@@ -4,7 +4,7 @@ import classnames from 'classnames';
 import Image from 'next/image'
 import rimg1 from '/public/images/shop/shop-single/review/img-1.jpg' 
 import rimg2 from '/public/images/shop/shop-single/review/img-2.jpg' 
-import { productDoc } from '../../document';
+import { productDoc } from '../../../document';
 
 
 const ProductTabs = (props) => {
@@ -48,23 +48,17 @@ const ProductTabs = (props) => {
                             <Row>
                                 <Col sm="12">
                                     <div id="Schedule">
-                                    <p>Samsa woke from troubled dreams, he found himself transformed in his bed into a
-                                        horrible vermin. He lay on his armour-like back, and if he lifted his head a
-                                        little he could see his brown belly, slightly domed and divided by arches into
-                                        stiff sections. The bedding was hardly able to cover it and seemed ready to
-                                        slide off any moment. His many legs, pitifully thin compared with the size of
-                                        the rest of him.</p>
-                                    <p>The bedding was hardly able to cover it and seemed ready to slide off any moment.
-                                        His many legs, pitifully thin compared with the size of the rest of himSamsa
-                                        woke from troubled dreams, he found himself transformed in his bed into a
-                                        horrible vermin.</p>
+                                    <p>Giá sản phẩm thay đổi tùy thuộc vào màu da, chất liệu da, động cơ...(Quý khách vui lòng liên hệ với nhân viên kinh doanh để nhận báo giá chi tiết)</p>
+                                        <p>Chắt lọc tỉ mỉ từ những nguyên liệu hàng đầu: sử dụng chất liệu da bò thật từ Ý, khung gỗ thượng hạng và lớp đệm mút êm ái nhằm mang đến trải nghiệm ngồi hoàn hảo nhất.</p>
+                                        <p>Quy trình sản xuất nghiêm ngặt gồm 128 bước & 3 lần kiểm tra khắt khe trước khi đưa ra thị trường sản phẩm hoàn hảo nhất.</p>
+                                        <p>Thiết kế được lấy cảm hứng từ những bức tranh cuộc sống, tượng trưng cho văn hóa và thẩm mỹ Ý.</p>
                                     </div>
                                 </Col>
                             </Row>
                         </TabPane>
                         <TabPane tabId="2">
                         <div className="row">
-                            <div className="col col-lg-10 col-12">
+                            {/* <div className="col col-lg-10 col-12">
                                 <div className="client-rv">
                                     <div className="client-pic">
                                         <Image src={rimg1} alt=""/>
@@ -119,7 +113,7 @@ const ProductTabs = (props) => {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
 
                             <div className="col col-lg-12 col-12 review-form-wrapper">
                                 <div className="review-form">

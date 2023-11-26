@@ -1,7 +1,7 @@
 import React from 'react';
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
-import { productDoc } from '../../document';
+import { productDoc } from '../../../document';
 
 const Product = ({ item }) => {
 
@@ -36,11 +36,10 @@ const Product = ({ item }) => {
             <span className="current">${item.price}</span>
             <span className="old">${item.delPrice}</span>
           </div>
-          <p>There are many variations of passages of Lorem Ipsum and available, but the majority have suffered alteration in somey form.</p>
+          <p>Giá trên bao gồm:</p>
           <ul>
-            <li>Going through the cites of the word in classNameical.</li>
-            <li>There are many variations of passages.</li>
-            <li>Making it look like readable and spoken English.</li>
+            <li>Set Sofa Văng 3 (L2 + LT + L3): L3430xW1050xH780 (50%)</li>
+            <li>Sofa đôi (DC): L2280xW1050xH780 (50%)</li>
           </ul>
           <div className="tg-btm">
             <p><span>{productDoc.Categories}:</span> Book</p>

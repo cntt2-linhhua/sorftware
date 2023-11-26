@@ -34,9 +34,9 @@ const Footer2 = (props) => {
                                 </div>
                                 <div className="contact-ft">
                                     <ul>
-                                        <li><i className="fi flaticon-email"></i>arkitek@gmail.com</li>
-                                        <li><i className="fi flaticon-phone-call"></i>+ 8 (123) 123 - 456 - 789</li>
-                                        <li><i className="fi flaticon-placeholder"></i>19 Thordge Shiloh,Hawai 863</li>
+                                        <li><i className="fi flaticon-email"></i> minhduongdecor@gmail.com</li>
+                                        <li><i className="fi flaticon-phone-call"></i>0911 453 355</li>
+                                        <li><i className="fi flaticon-placeholder"></i>vinhomesmartcity</li>
                                     </ul>
                                 </div>
                             </div>

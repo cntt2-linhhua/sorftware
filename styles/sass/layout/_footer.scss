@@ -153,7 +153,7 @@
     }
 
     .wpo-service-link-widget {
-        padding-left: 70px;
+        padding-left: 0px;
     }
 
     .link-widget {
@@ -161,7 +161,7 @@
 
 
         @media screen and (min-width: 1200px) {
-            padding-left: 75px;
+            padding-left: 0px;
         }
 
         @media (max-width: 1199px) {
@@ -264,6 +264,10 @@
                 border: 1px solid $white;
                 box-shadow: none;
                 border-radius: 0;
+
+                &::placeholder {
+                    color: #ccc ;
+                }
             }
 
             .submit {

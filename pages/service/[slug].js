@@ -32,15 +32,8 @@ const ServiceSinglePage = (props) => {
                                     <div className="wpo-service-single-title">
                                         <h3>{serviceDetails?.sTitle}</h3>
                                     </div>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Metus dis posuere amet
-                                        tincidunt commodo, velit. Ipsum, hac nibh fermentum nisi, platea condimentum cursus
-                                        velit dui. Massa volutpat odio facilisis purus sit elementum. Non, sed velit dictum
-                                        quam. Id risus pharetra est, at rhoncus, nec ullamcorper tincidunt. Id aliquet duis
-                                        sollicitudin diam, elit sit. Et nisi in libero facilisis sed est. Elit curabitur
-                                        amet risus bibendum. Posuere et eget orci, tempor enim.</p>
-                                    <p>Hac nibh fermentum nisi, platea condimentum cursus velit dui. Massa volutpat odio
-                                        facilisis purus sit elementum. Non, sed velit dictum quam. Id risus pharetra est, at
-                                        rhoncus, nec ullamcorper tincidunt. Id aliquet duis sollicitudin diam, elit sit.</p>
+                                    <p>Trong thiết kế, chúng tôi đưa những đặc điểm của thế giới tự nhiên vào không gian xây dựng như nước, cây xanh và ánh sáng tự nhiên hoặc các yếu tố như gỗ và đá. Việc khuyến khích sử dụng các hệ thống và quy trình tự nhiên trong thiết kế cho phép tiếp xúc với thiên nhiên, và từ đó, các phương pháp thiết kế này sẽ cải thiện sức khỏe và phúc lợi. Có một số lợi ích có thể có, bao gồm giảm sự thay đổi nhịp tim và nhịp tim, giảm huyết áp và tăng hoạt động trong hệ thống thần kinh của chúng ta, chỉ kể một số lợi ích.</p>
+                                    <p>Theo thời gian, mối liên hệ của chúng ta với thế giới tự nhiên cũng khác nhau song song với sự phát triển của công nghệ. Những tiến bộ trong thế kỷ 19 và 20 đã thay đổi căn bản cách con người tương tác với thiên nhiên. Được che chở khỏi các yếu tố thời tiết, chúng tôi ngày càng dành nhiều thời gian hơn trong nhà. Ngày nay, phần lớn mọi người dành gần 80-90% thời gian ở trong nhà, di chuyển giữa nhà và nơi làm việc. Khi các nhà thiết kế nội thất đón nhận niềm đam mê sinh học.</p>
                                     <div className="row mt-4">
                                         <div className="col-md-6 col-sm-6 col-12">
                                             <div className="wpo-p-details-img">
@@ -58,9 +51,7 @@ const ServiceSinglePage = (props) => {
                                     <div className="wpo-service-single-title">
                                         <h3>{ servicesDoc.OurCapabilities }</h3>
                                     </div>
-                                    <p>Massa volutpat odio facilisis purus sit elementum. Non, sed velit dictum quam. Id
-                                        risus pharetra est, at rhoncus, nec ullamcorper tincidunt. Id aliquet duis
-                                        sollicitudin diam.</p>
+                                    <p>Thiết kế nội thất trong mơ của bạn bắt đầu bằng một ý tưởng được phản ánh trong các bản thiết kế, kế hoạch dự án, dưới dạng hình ảnh 3D. Có thể làm cho bất kỳ địa điểm nào trở nên thú vị, hấp dẫn và tiện dụng hơn, vì điều này đáng để tin tưởng vào các chuyên gia thực sự và khi đó số tiền sẽ không bị chi tiêu một cách vô ích.</p>
                                     <ul>
                                         <li>{ servicesDoc.OurCapabilities1 }</li>
                                         <li>{ servicesDoc.OurCapabilities2 }</li>
@@ -94,7 +85,7 @@ const ServiceSinglePage = (props) => {
                                                     <div className="wpo-service-item">
                                                         <i><Image src={service.scImg} alt="" /></i>
                                                         <h2>{service.sTitle}</h2>
-                                                        <p>Lacus, etiam sed est eu tempus need Temer diam congue.</p>
+                                                        <p>{service.des2}</p>
                                                     </div>
                                                 </div>
                                             ))}

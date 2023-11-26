@@ -24,7 +24,7 @@ const ServiceSection2 = (props) => {
                     </div>
                 </div>
                 <div className="service-wrap">
-                    <div className="row align-items-center">
+                    <div className="row" style={{ alignSelf: 'stretch', justifyContent: 'stretch'}}>
                         {Services.map((service, Sitem) => (
                             <div className="col-lg-4 col-md-6 col-12" key={Sitem}>
                                 <div className="service-item">

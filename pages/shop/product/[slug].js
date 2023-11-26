@@ -1,14 +1,14 @@
 import React, { Fragment, useEffect, useState } from 'react';
-import Navbar from '../../components/Navbar/Navbar';
+import Navbar from '../../../components/Navbar/Navbar';
 import { connect } from "react-redux";
 // import { addToCart } from "../../store/actions/action";
 import Product from './product'
-import api from "../../api";
+import api from "../../../api";
 import { useRouter } from 'next/router'
-import PageTitle from '../../components/pagetitle/PageTitle';
+import PageTitle from '../../../components/pagetitle/PageTitle';
 import ProductTabs from './alltab';
-import Footer from '../../components/footer/Footer';
-import Scrollbar from '../../components/scrollbar/scrollbar'
+import Footer from '../../../components/footer/Footer';
+import Scrollbar from '../../../components/scrollbar/scrollbar'
 import Logo from '/public/images/logo.svg'
 
 

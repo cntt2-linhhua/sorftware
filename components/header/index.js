@@ -6,21 +6,19 @@ import { connect } from "react-redux";
 import { removeFromCart } from "../../store/actions/action";
 import Logo from '/public/images/logo.svg'
 import Image from 'next/image';
+import { useRouter } from 'next/router';
 
 
 const Header = (props) => {
-    const [menuActive, setMenuState] = useState(false);
-    const [cartActive, setcartState] = useState(false);
-
-    const SubmitHandler = (e) => {
-        e.preventDefault()
-    }
-
+    const { pathname } = useRouter()
     const ClickHandler = () => {
         window.scrollTo(10, 0);
     }
 
-    const { carts } = props;
+    const colorItem = (href) => {
+        if (pathname === href || (href !== '/' && pathname.includes(href))) return '#d48256'
+        return '#000'
+    }
 
     return (
         <header id="header" className={props.topbarClass}>
@@ -44,24 +42,24 @@ const Header = (props) => {
                                     <button className="menu-close"><i className="ti-close"></i></button>
                                     <ul className="nav navbar-nav mb-2 mb-lg-0">
                                         <li className="menu-item-has-children">
-                                            <Link onClick={ClickHandler} href="/">Trang chủ</Link>
+                                            <Link onClick={ClickHandler} style={{ color: colorItem('/') }} href="/">Trang chủ</Link>
                                         </li>
                                         <li className="menu-item-has-children">
-                                            <Link onClick={ClickHandler} href="/shop">Cửa hàng</Link>
+                                            <Link onClick={ClickHandler} style={{ color: colorItem('/shop') }} href="/shop">Cửa hàng</Link>
                                         </li>
                                         <li className="menu-item-has-children">
-                                            <Link onClick={ClickHandler} href="/project">Dự án</Link>
+                                            <Link onClick={ClickHandler} style={{ color: colorItem('/project') }} href="/project">Dự án</Link>
                                         </li>
                                         <li className="menu-item-has-children">
-                                            <Link onClick={ClickHandler} href="/service">Dịch vụ</Link>
+                                            <Link onClick={ClickHandler} style={{ color: colorItem('/service') }} href="/service">Dịch vụ</Link>
                                         </li>
                                         <li className="menu-item-has-children">
-                                            <Link onClick={ClickHandler} href="/blog">Tin tức</Link>
+                                            <Link onClick={ClickHandler} style={{ color: colorItem('/blog') }} href="/blog">Tin tức</Link>
                                         </li>
                                         <li className="menu-item-has-children">
-                                            <Link onClick={ClickHandler} href="/about">Giới thiệu</Link>
+                                            <Link onClick={ClickHandler} style={{ color: colorItem('/about') }} href="/about">Giới thiệu</Link>
                                         </li>
-                                        <li><Link onClick={ClickHandler} href="/contact">Liên hệ</Link></li>
+                                        <li><Link onClick={ClickHandler} style={{ color: colorItem('/contact') }} href="/contact">Liên hệ</Link></li>
                                     </ul>
                                 </div>
                             </div>

@@ -11,7 +11,7 @@ const About = (props) => {
         window.scrollTo(10, 0);
     }
 
-    
+
     return (
         <section className="Arkitek-about-section-s4 section-padding">
             <div className="container">
@@ -29,9 +29,9 @@ const About = (props) => {
                                 Dignissim sed magna congue pretium egestas neque faucibus tempus. Quis at arcu auctor
                                 semper quis semper nisl a.</p>
                             <ul>
-                                <li>Arkitekdemo@gmail.com</li>
-                                <li>(239) 555-0108</li>
-                                <li>8502 Preston Rd. Inglewood, Maine 98380</li>
+                                <li>minhduongdecor@gmail.com</li>
+                                <li>0911 453 355</li>
+                                <li>vinhomesmartcity</li>
                             </ul>
                             <Link onClick={ClickHandler} href="/about" className="theme-btn">More About</Link>
                         </div>
@@ -44,10 +44,10 @@ const About = (props) => {
                                     Experience</p>
                             </div>
                             <div className="images">
-                                <Image src={abimg1} alt=""/>
+                                <Image src={abimg1} alt="" />
                             </div>
                             <div className="bg-img">
-                                <Image src={abimg2} alt=""/>
+                                <Image src={abimg2} alt="" />
                             </div>
                         </div>
                     </div>
