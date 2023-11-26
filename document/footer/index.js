@@ -13,5 +13,5 @@ export const footerDoc = {
     SubscribeNewsletter: 'Theo dõi thông tin', // Subscribe Newsletter
     yourEmailAddess: 'Địa chỉ Email của bạn..', // Your Email Address..
     subcribe: 'Subscribe', // Subscribe
-    Copyright: 'Copyright © 2023 Arkitek by wpOceans.' // Copyright © 2023 Arkitek by wpOceans. 
+    Copyright: 'Copyright © 2023 HVGL by wpOceans.' // Copyright © 2023 Arkitek by wpOceans. 
 }
