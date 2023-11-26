@@ -81,8 +81,8 @@ const BlogSingle = (props) => {
                                     <Link href="/blog-single-fullwidth/The-Golden-Ratio-2D-Sketch" target="_blank"><img src={blog6} alt="" /></Link>
                                 </div>
                                 <div className="author-content">
-                                    <Link href="/blog-single-fullwidth/The-Golden-Ratio-2D-Sketch" className="author-name">Author: Jenny Watson</Link>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+                                    <Link href="/blog-single-fullwidth/The-Golden-Ratio-2D-Sketch" className="author-name">Author: Hoang Linh Nhi</Link>
+                    <p>CHÀO! Chúc bạn một ngày tốt lành. Tôi là tác giả của blog này. Cảm ơn bạn đã dành thời gian đọc bài viết của tôi.</p>
                                     <div className="socials">
                                         <ul className="social-link">
                                             <li><Link href="/blog-single-fullwidth/The-Golden-Ratio-2D-Sketch"><i className="ti-facebook"></i></Link></li>

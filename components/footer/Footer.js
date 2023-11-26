@@ -100,7 +100,7 @@ const Footer = (props) => {
                 <div className="container">
                     <div className="row">
                         <div className="col col-xs-12">
-                            <p className="copyright"> Copyright &copy; 2023  Arkitek by <Link onClick={ClickHandler} href="/">HVTeam</Link>. All
+                            <p className="copyright"> Copyright &copy; 2023 by <Link href="https://www.facebook.com/hoangvietglcs/">HVGL</Link>. All
                                 Rights Reserved.</p>
                         </div>
                     </div>

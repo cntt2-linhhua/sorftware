@@ -26,10 +26,7 @@ const ShopPage = ({ }) => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            <ShopProduct
-                                // addToCartProduct={addToCartProduct}
-                                products={products}
-                            />
+                            <ShopProduct products={products} />
                         </div>
                     </div>
                 </div>

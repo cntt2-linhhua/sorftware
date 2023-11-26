@@ -2,9 +2,8 @@ import React, { useState } from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ts1 from '../../public/images/testimonial/4.jpg'
-import ts2 from '../../public/images/testimonial/5.jpg'
-import ts3 from '../../public/images/testimonial/6.jpg'
+import ts1 from '../../public/images/testimonial/4.jpeg'
+import ts2 from '../../public/images/testimonial/5.jpeg'
 import quote from '../../public/images/testimonial/quote-1.png'
 import Image from 'next/image';
 
@@ -13,31 +12,22 @@ const testimonial = [
     {
         id: '01',
         tImg: ts1,
-        Des: "Triết lý cơ bản của studio chúng tôi là tạo ra các giải pháp cá nhân, tuyệt đẹp về mặt thẩm mỹ cho khách hàng bằng cách phát triển nhanh như chớp các dự án sử dụng phong cách và kiến ​​trúc độc đáo. Ngay cả khi bạn không có sẵn bản phác thảo về những gì bạn muốn – chúng tôi sẽ giúp bạn có được kết quả mà bạn mơ ước.",
-        Title: 'Leslie Alexander',
-        Sub: "Marketing Coordinator",
+        Des: "Triết lý cơ bản của cty chúng tôi là tạo ra các giải pháp cá nhân, tuyệt đẹp về mặt thẩm mỹ cho khách hàng bằng cách phát triển nhanh như chớp các dự án sử dụng phong cách và kiến ​​trúc độc đáo. Ngay cả khi bạn không có sẵn bản phác thảo về những gì bạn muốn – chúng tôi sẽ giúp bạn có được kết quả mà bạn mơ ước.",
+        Title: 'Đỗ Văn Đạt',
+        Sub: "Giám đốc",
     },
     {
-        id: '01',
+        id: '02',
         tImg: ts2,
-        Des: "Triết lý cơ bản của studio chúng tôi là tạo ra các giải pháp cá nhân, tuyệt đẹp về mặt thẩm mỹ cho khách hàng bằng cách phát triển nhanh như chớp các dự án sử dụng phong cách và kiến ​​trúc độc đáo. Ngay cả khi bạn không có sẵn bản phác thảo về những gì bạn muốn – chúng tôi sẽ giúp bạn có được kết quả mà bạn mơ ước.",
-        Title: 'Don Alexander',
-        Sub: "SCG First Company",
-    },
-    {
-        id: '01',
-        tImg: ts3,
-        Des: "Triết lý cơ bản của studio chúng tôi là tạo ra các giải pháp cá nhân, tuyệt đẹp về mặt thẩm mỹ cho khách hàng bằng cách phát triển nhanh như chớp các dự án sử dụng phong cách và kiến ​​trúc độc đáo. Ngay cả khi bạn không có sẵn bản phác thảo về những gì bạn muốn – chúng tôi sẽ giúp bạn có được kết quả mà bạn mơ ước.",
-        Title: 'Randy D. Melill',
-        Sub: "Merketer",
+        Des: "Trong thế giới của thiết kế, mỗi đường nét không chỉ là một hình ảnh, mà là câu chuyện được kể một cách tinh tế. Thiết kế không chỉ là về việc tạo ra cái nhìn, mà là về việc làm cho mọi cái nhìn đều có ý nghĩa và tương tác với người nhìn một cách sâu sắc",
+        Title: 'Đỗ Thị Thuý',
+        Sub: "Designer",
     }
 ]
 
 const Testimonial3 = () => {
-
     const [nav1, setNav1] = useState();
     const [nav2, setNav2] = useState();
-
 
     return (
         <section className="Arkitek-testimonial-section s3 section-padding">

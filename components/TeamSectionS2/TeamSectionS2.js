@@ -7,8 +7,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image from 'next/image';
 import { homeDoc } from '../../document';
+import tImg1 from '../../public/images/team/img-1.jpg'
 
 const TeamSectionS2 = (props) => {
+    console.log(Teams)
     const ClickHandler = () => {
         window.scrollTo(10, 0);
     }
@@ -71,22 +73,20 @@ const TeamSectionS2 = (props) => {
                 </div>
                 <div className="team-slider" >
                     <Slider {...settings}>
-                        {Teams.map((team, titem) => (
-                            <div className="item" key={titem}>
-                                <div className="image">
-                                    <Image src={team.tImg} alt="" />
-                                </div>
-                                <div className="text">
-                                    <h2><Link onClick={ClickHandler} href={'/team-single/[slug]'} as={`/team-single/${team.slug}`}>{team.name}</Link></h2>
-                                    <span>{team.title}</span>
-                                    <ul className="icon">
-                                        <li><Link onClick={ClickHandler} href="/"><i className="ti-facebook"></i></Link></li>
-                                        <li><Link onClick={ClickHandler} href="/"><i className="ti-twitter-alt"></i></Link></li>
-                                        <li><Link onClick={ClickHandler} href="/"><i className="ti-instagram"></i></Link></li>
-                                    </ul>
-                                </div>
+                        <div className="item">
+                            <div className="image">
+                                <Image src={tImg1} alt="" />
                             </div>
-                        ))}
+                            <div className="text">
+                                <h2><Link onClick={ClickHandler} href={'/team-single/[slug]'}>Do dat</Link></h2>
+                                <span>Do dat adsd</span>
+                                <ul className="icon">
+                                    <li><Link onClick={ClickHandler} href="/"><i className="ti-facebook"></i></Link></li>
+                                    <li><Link onClick={ClickHandler} href="/"><i className="ti-twitter-alt"></i></Link></li>
+                                    <li><Link onClick={ClickHandler} href="/"><i className="ti-instagram"></i></Link></li>
+                                </ul>
+                            </div>
+                        </div>
                     </Slider>
                 </div>
             </div>

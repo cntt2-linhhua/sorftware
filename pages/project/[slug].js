@@ -54,7 +54,7 @@ const ProjectSinglePage = (props) => {
                                         </div>
                                     </div>
                                     <div className="wpo-project-single-main-img">
-                                        <Image src={projectDetails?.pSImg} alt=""/>
+                                        <Image src={projectDetails?.pSImg ?? ''} alt=""/>
                                     </div>
                                 </div>
                                 <div className="wpo-project-single-item list-widget">
@@ -75,7 +75,7 @@ const ProjectSinglePage = (props) => {
                                         <div className="col-lg-6">
                                             <div className="wpo-project-single-item-quote">
                                                 <p>"{projectDoc.projectSolugan}"</p>
-                                                <span>Robert - <span>Yellow Theme</span></span>
+                                                <span>Ẩn danh - <span>Sưu tầm</span></span>
                                             </div>
                                         </div>
                                     </div>
@@ -90,12 +90,12 @@ const ProjectSinglePage = (props) => {
                                     <div className="row mt-4">
                                         <div className="col-md-6 col-sm-6 col-12">
                                             <div className="wpo-p-details-img">
-                                                <Image src={projectDetails?.ssImg1} alt=""/>
+                                                <Image src={projectDetails?.ssImg1  ?? ''} alt=""/>
                                             </div>
                                         </div>
                                         <div className="col-md-6 col-sm-6 col-12">
                                             <div className="wpo-p-details-img">
-                                                <Image src={projectDetails?.ssImg2} alt=""/>
+                                                <Image src={projectDetails?.ssImg2 || ''} alt=""/>
                                             </div>
                                         </div>
                                     </div>

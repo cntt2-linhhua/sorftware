@@ -24,8 +24,8 @@ const BlogSidebar = (props) => {
                     <div className="img-holder">
                         <Image src={about} alt="" />
                     </div>
-                    <h4>Jenny Watson</h4>
-                    <p>Hi! beautiful people. I`m an authtor of this blog. Read our post - stay with us</p>
+                    <h4>Hoang Linh Nghi</h4>
+                    <p>CHÀO! Chúc bạn một ngày tốt lành. Tôi là tác giả của blog này. Cảm ơn bạn đã dành thời gian đọc bài viết của tôi.</p>
                     <div className="social">
                         <ul className="clearfix">
                             <li><Link onClick={ClickHandler} href="/blog"><i className="ti-facebook"></i></Link></li>
