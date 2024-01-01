@@ -16,7 +16,7 @@ const HomePage = () => {
     const { t } = useTranslation();
     return (
         <Fragment>
-            <p>{t('description.part2')}</p>
+            <h1>{t("main.header")}</h1>
             <Navbar hclass={'wpo-header-style-3'} topbarNone={'topbar-none'} />
             <Hero3 />
             <About3 />
@@ -33,3 +33,4 @@ const HomePage = () => {
 };
 
 export default HomePage;
+  
