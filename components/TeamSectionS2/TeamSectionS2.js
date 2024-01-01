@@ -10,7 +10,6 @@ import { homeDoc } from '../../document';
 import tImg1 from '../../public/images/team/img-1.jpg'
 
 const TeamSectionS2 = (props) => {
-    console.log(Teams)
     const ClickHandler = () => {
         window.scrollTo(10, 0);
     }
