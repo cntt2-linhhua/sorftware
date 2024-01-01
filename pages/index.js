@@ -10,10 +10,13 @@ import Testimonial3 from '../components/Testimonial3/Testimonial3';
 import CtaSection from '../components/CtaSection/CtaSection';
 import BlogSection2 from '../components/BlogSection2/BlogSection2';
 import Footer from '../components/footer/Footer';
+import { useTranslation } from 'react-i18next';
 
 const HomePage = () => {
+    const { t } = useTranslation();
     return (
         <Fragment>
+            <p>{t('description.part2')}</p>
             <Navbar hclass={'wpo-header-style-3'} topbarNone={'topbar-none'} />
             <Hero3 />
             <About3 />

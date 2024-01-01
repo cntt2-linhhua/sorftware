@@ -586,7 +586,7 @@ img {
 
 .form select {
   font-style: normal;
-  background: url(/public/images/select-icon.png) no-repeat right center;
+  background: url(/images/select-icon.png) no-repeat right center;
   display: inline-block;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -644,7 +644,7 @@ img {
 }
 
 .wpo-page-title {
-  background: url(/public/images/page-title.jpg) no-repeat center top/cover;
+  background: url(/images/page-title.jpg) no-repeat center top/cover;
   min-height: 380px;
   position: relative;
   display: -webkit-box;
@@ -4968,7 +4968,7 @@ img {
     static-hero-s3
 --------------------------------------------*/
 .static-hero-s3 {
-  background: url(/public/images/slider/slide-11.jpg);
+  background: url(/images/slider/slide-11.jpg);
 }
 
 @media (max-width: 1399px) {
@@ -7061,7 +7061,7 @@ img {
 /*3.8 Arkitek-cta-section */
 .Arkitek-cta-section,
 .Arkitek-cta-section-s2 {
-  background: url(/public/images/cta-bg.jpg);
+  background: url(/images/cta-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 1;
@@ -9726,7 +9726,7 @@ img {
 
 /* wpo-pricing-section-s2 */
 .wpo-pricing-section-s2 {
-  background: url(/public/images/plan-bg.jpg);
+  background: url(/images/plan-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -9994,7 +9994,7 @@ img {
 
 /* Arkitek-team-section-s2 */
 .Arkitek-team-section-s2 {
-  background: url(/public/images/team-bg.jpg);
+  background: url(/images/team-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -12263,7 +12263,7 @@ img {
   -o-appearance: none;
   appearance: none;
   -moz-appearance: none;
-  background: transparent url(/public/images/select-icon2.png) no-repeat calc(100% - 15px) center;
+  background: transparent url(/images/select-icon2.png) no-repeat calc(100% - 15px) center;
   position: relative;
 }
 
@@ -12837,7 +12837,7 @@ img {
 }
 
 .wpo-project-single-area .wpo-project-single-wrap .wpo-project-contact-area .wpo-contact-form-area select.form-control {
-  background: transparent url(/public/images/select-icon2.png) no-repeat calc(100% - 15px) center;
+  background: transparent url(/images/select-icon2.png) no-repeat calc(100% - 15px) center;
 }
 
 .wpo-project-single-area .wpo-project-single-wrap .wpo-project-contact-area .wpo-contact-form-area .submit-area .theme-btn, .wpo-project-single-area .wpo-project-single-wrap .wpo-project-contact-area .wpo-contact-form-area .submit-area .view-cart-btn {
@@ -13109,7 +13109,7 @@ img {
 }
 
 .wpo-service-single-area .wpo-service-single-wrap .wpo-service-contact-area .wpo-contact-form-area select.form-control {
-  background: transparent url(/public/images/select-icon2.png) no-repeat calc(100% - 15px) center;
+  background: transparent url(/images/select-icon2.png) no-repeat calc(100% - 15px) center;
 }
 
 .wpo-service-single-area .wpo-service-single-wrap .wpo-service-contact-area .wpo-contact-form-area .submit-area .theme-btn, .wpo-service-single-area .wpo-service-single-wrap .wpo-service-contact-area .wpo-contact-form-area .submit-area .view-cart-btn {
@@ -14402,12 +14402,12 @@ img {
   -o-appearance: none;
   appearance: none;
   -moz-appearance: none;
-  background: transparent url(/public/images/select-icon2.png) no-repeat calc(100% - 15px) center;
+  background: transparent url(/images/select-icon2.png) no-repeat calc(100% - 15px) center;
   position: relative;
 }
 
 .wpo-contact-pg-section form select:focus {
-  background: transparent url(/public/images/select-icon2.png) no-repeat calc(100% - 15px) center;
+  background: transparent url(/images/select-icon2.png) no-repeat calc(100% - 15px) center;
 }
 
 .wpo-contact-pg-section form .submit-area {

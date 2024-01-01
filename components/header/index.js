@@ -7,9 +7,16 @@ import { removeFromCart } from "../../store/actions/action";
 import Logo from '/public/images/logo.svg'
 import Image from 'next/image';
 import { useRouter } from 'next/router';
+import { useTranslation, Trans } from 'react-i18next';
+
+const lngs = {
+    en: { nativeName: 'English' },
+    de: { nativeName: 'Deutsch' }
+};
 
 
 const Header = (props) => {
+    const { t, i18n } = useTranslation();
     const { pathname } = useRouter()
     const ClickHandler = () => {
         window.scrollTo(10, 0);
@@ -63,6 +70,13 @@ const Header = (props) => {
                                     </ul>
                                 </div>
                             </div>
+                            <div className="col-lg-2 col-md-6 col-6">
+                                {Object.keys(lngs).map((lng) => (
+                                    <button key={lng} style={{ fontWeight: i18n.language === lng ? 'bold' : 'normal' }} onClick={() => i18n.changeLanguage(lng)}>
+                                        {lngs[lng].nativeName}
+                                    </button>
+                                ))}
+                            </div>
                         </div>
                     </div>
                 </nav>
@@ -72,7 +86,7 @@ const Header = (props) => {
 }
 
 const mapStateToProps = (_state) => {
-    return { };
+    return {};
 };
 
 
